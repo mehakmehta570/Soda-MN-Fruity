@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    background-color:  #fdb3a2;
+}
+#logo-img{
+    width:20%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+nav a{
+    font-size: 32px;
+    text-decoration: none;
+    color: rgb(225, 148, 4);
+    font-weight: 550;
+}
+.cart-button{
+    background-color:rgb(225, 148, 4);
+    border-radius: 40px;
+    font-size: 24px;
+    color: white;
+    padding: 15px 30px;
+    outline: 0px;
+    border: 0px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:  rgb(254, 192, 175);
+}
+.hero-text h1{
+    font-size: 80px;
+    font-weight: 900;
+    color:white;
+}
+.hero-text p{
+    margin-top:15px;
+    font-size:40px;
+    color:white;
+}
+.canbox{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.can{
+    width:380px;
+    height: auto;
+}
+.lemon-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color:  rgb(253, 239, 111);
+}
+.can1{
+    width:300px;
+    height: auto;
+}
+.lemon-soda{
+    margin-left: 150px;
+}
+.lemon-section h2{
+    font-size: 80px;
+    font-weight: 900;
+    color:white;
+    margin-bottom: 20px;
+    
+}
+.lemon-section p{
+    color:white;
+    font-size: 32px;
+}
+.btn1{
+    background-color: orange;
+    color: white;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding: 20px;
+    border: 0px;
+    font-size: 24px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.strawberry-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: rgb(238, 151, 188);
+}
+.can2{
+    width:380px;
+    height: auto;
+}
+.strawberry-soda{
+    margin-left:50px;
+}
+.strawberry-section h2{
+    font-size: 80px;
+    font-weight: 900;
+    color:white;
+    margin-bottom: 20px;
+    
+}
+.strawberry-section p{
+    color:white;
+    font-size: 32px;
+}
+.btn2{
+    background-color:rgb(217, 57, 126);
+    color: white;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding: 20px;
+    border: 0px;
+    font-size: 24px;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.raspberry-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: rgb(244, 137, 153);
+}
+.can3{
+    width:380px;
+    height: auto;
+}
+.raspberry-soda{
+    margin-left:100px;
+}
+.raspberry-section h2{
+    font-size: 80px;
+    font-weight: 900;
+    color:white;
+    margin-bottom: 20px;
+    
+}
+.raspberry-section p{
+    color:white;
+    font-size: 32px;
+}
+.btn3{
+    background-color:rgb(248, 89, 124);
+    color: white;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding: 20px;
+    border: 0px;
+    font-size: 24px;
+}
+.btn3 a{
+    text-decoration: none;
+    color: white;
+}
+.our-soda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:rgb(253, 239, 111);
+}
+.soda{
+    margin-left:100px;
+}
+.soda h3{
+    font-size:64px;
+    color: white;
+    font-weight: 700;
+  
+}
+.soda h1{
+    font-size:90px;
+    font-weight: 800;
+    color:rgb(255, 135, 89);
+    margin-top: 20px;
+}
+.image img{
+    width:420px;
+    height: auto;
+    border-radius: 5px;
+    margin-right:10px;
+}
+.healthy-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color:rgb(254, 192, 175);
+}
+.text h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+}
+.text span{
+    color:rgb(255, 135, 89);
+    font-size: 64px;
+}
+.text p{
+    margin: 20px 0;
+    font-size: 30px;
+    width: 80%;
+    color:rgb(255, 135, 89)
+} 
+.btn4{
+    background-color:rgb(213, 24, 65);
+    color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 20px;
+    border: 0px;
+    font-size: 24px;
+}
+.btn4 a{
+    text-decoration: none;
+    color: white;
+}
+.image-soda img{
+    width:100%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.footer {
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-logo img {
+    width: 200px;
+}
+.about-us h3{
+    font-size: 24px;
+}
+.about-us li a{
+    font-size: 20px;
+}
+.footer h3 {
+    color: rgb(255, 135, 89);
+    font-size: 24px;
+    font-weight: 650;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    color: rgb(255, 135, 89);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: rgb(255, 135, 89); 
+   
+}
+.svg{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    gap: 10px; 
+}
+.updates p {
+    color: rgb(255, 135, 89);
+    font-size: 16px;
+}
+
+.subscribe {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.email {
+    padding: 10px 12px;
+    width: 180px;
+    border: 1px solid rgb(255, 135, 89);
+    border-radius: 5px;
+}
+
+.btn5 {
+    padding: 10px 20px;
+    background: rgb(255, 135, 89);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn5{
+    background-color: rgb(255, 135, 89);
+    border: none;
+    color:white;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.subscribe button a{
+    text-decoration: none;
+    color: white;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.product-img img{
+    width: 60%;
+    margin-left: 50px;
+}
+.section-1{
+    width: 100%;
+}
+.section-1 h1{
+    font-size:64px;
+    font-weight: 900;
+    color: rgb(119, 119, 119);
+    margin-top: 40px;
+}
+.description{
+    color: rgb(119, 119, 119);
+    font-size: 24px;
+}
+.ingredients{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.list{
+    font-size: 24px;
+    font-weight: 500;
+    color:rgb(119, 119, 119) ;
+    margin-top: 10px;
+}
+.price{
+    color:rgb(255, 135, 89); 
+    font-size: 32px;
+    margin-top: 20px;
+}
+.size{
+    color:rgb(119, 119, 119) ;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.input{
+    padding:10px;
+    font-size: 16px;
+}
+.button{
+    padding: 5px;
+
+}
+
+.add-cart{
+    color:rgb(255, 135, 89); 
+    background-color: white;
+    border: 2px solid rgb(255, 135, 89);
+    font-size: 16px;
+    font-weight: 500;
+    padding:20px;
+    border-radius:30px;
+    margin-top: 30px;
+}
+.buy-now{
+    background-color:rgb(255, 135, 89); 
+    color: white;
+    border: 2px solid rgb(255, 135, 89);
+    font-size: 16px;
+    font-weight: 500;
+    padding:20px;
+    border-radius:30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.product-img2 img{
+    width: 70%;
+    margin-left: 30px;
+}
+.container{
+    width: 90%;
+    margin: 40px auto;
+}
+.container h2{
+    color:rgb(255, 135, 89);
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container-img{
+    text-align: center;
+}
+.container-img img{
+    width: 40%;
+}
+.container-img p{
+    font-size: 30px;
+}
+.container-img2{
+    text-align: center;
+}
+.container-img2 img{
+    width: 70%;
+}
+.container-img2 p{
+    font-size: 30px;
+}
+
+
+.containerimg1{
+    text-align: center;
+}
+.containerimg1 img{
+    width: 40%;
+}
+.containerimg1 p{
+    font-size: 30px;
+}
+.containerimg2{
+    text-align: center;
+}
+.containerimg2 img{
+    width:800px;
+    margin-right: 50px;
+}
+.containerimg2 p{
+    font-size: 30px;
+}
+
+
+
+.containerimg3{
+    text-align: center;
+}
+.containerimg3 img{
+    width: 35%;
+}
+.containerimg3 p{
+    font-size: 30px;
+}
+.containerimg4{
+    text-align: center;
+}
+.containerimg4 img{
+    width:650px;
+    margin-right: 70px;
+}
+.containerimg4 p{
+    font-size: 30px;
+    margin-right: 70px;
+}
